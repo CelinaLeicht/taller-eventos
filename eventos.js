@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    const div = document.gerElementById("section");
-    section.addEvenListener("click", function(){
+    const div = document.getElementById("section");
+    section.addEventListener("click", function(){
         alert("Hola! Soy el div");
     })
 })
